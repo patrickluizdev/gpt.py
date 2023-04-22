@@ -4,6 +4,7 @@ import os
 
 
 # Define a chave da API do OpenAI
+# pip install openai
 config = configparser.ConfigParser()
 config.read('config.ini')
 openai.api_key = config.get('api', "api_key")
